@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Favorite Person 🎶</title>
+    <!-- Google Fonts for Vintage Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Courier+Prime&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Side A: The Soundtrack of Us 🎧</h1>
+        <p>A vinyl dedicated to the girl who lives miles away, but right in my heart.</p>
+    </header>
+
+    <div class="main-container">
+        <!-- Left: Turntable & Controls -->
+        <div class="turntable-section">
+            <div class="turntable-base">
+                <div class="vinyl" id="vinylRecord">
+                    <div class="record-label">
+                        SIDE A<br>
+                        <span>For Her 🤎</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="turntable-controls">
+                <button id="playBtn">▶ Play Record</button>
+                <button id="stopBtn">⏹ Stop</button>
+            </div>
+        </div>
+
+        <!-- Right: Tracklist & Memories -->
+        <div class="tracklist-section">
+            <div>
+                <h2>Tracklist (Click to Play Memory)</h2>
+                <ul class="track-list">
+                    <li class="track-item" data-memory="Track 01: Our First Late Night FaceTime Call (We talked for 6 hours straight!)">
+                        <span>1. First Late Night Call</span> <span>03:42</span>
+                    </li>
+                    <li class="track-item" data-memory="Track 02: That awkward airport goodbye that made me realize how much I miss you.">
+                        <span>2. Airport Goodbyes</span> <span>02:15</span>
+                    </li>
+                    <li class="track-item" data-memory="Track 03: Netflix movie syncs where we talked more than we watched the movie.">
+                        <span>3. Long Distance Movie Nights</span> <span>04:10</span>
+                    </li>
+                    <li class="track-item" data-memory="Track 04: The exact moment I knew you were my absolute favorite notification.">
+                        <span>4. Favorite Notification</span> <span>03:05</span>
+                    </li>
+                </ul>
+
+                <div class="memory-popup" id="memoryDisplay">
+                    ✨ Click a track on the list to hear the story behind it...
+                </div>
+            </div>
+
+            <div>
+                <div class="ldr-info">
+                    <h3>🌍 Distance Status</h3>
+                    <p id="distanceText">Calculations: Miles apart, but zero distance in my heart.</p>
+                    <p id="countdownText" style="margin-top: 0.3rem; font-weight: bold;">Countdown to next hug: Loading...</p>
+                </div>
+
+                <button class="secret-btn" id="secretBtn">🎁 Open Secret Track (Birthday Surprise!)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+ç
